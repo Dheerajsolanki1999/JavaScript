@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Bebas Neue';
+}
+
+body 
+{
+    height: 400vh;
+    background-image:url('Wallpaper-1.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.navbar 
+{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 13%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.list-item 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+.link 
+{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    font-size: 40px;
+    color: #7A7A7A;
+}
+
+.active-link
+{
+    color: white;
+    border-bottom:5px solid white;
+}
+
+.section
+{
+    width: 100%;
+    height: 100vh;
+    border-bottom:1px solid white ;
+}
+
+.empty
+{
+    width: 100%;
+    height: 13%;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 87%;
+    color: white;
+    font-size: 350px;
+    text-shadow: 10px 10px 7px #000000;
+}
