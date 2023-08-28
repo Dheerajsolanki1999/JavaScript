@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+        <div class="slider-container">
+            <div class="slider_box">
+                <div class="left-button">
+                    <button class="left">&larr;</button>
+                </div>
+                <div class="slider">
+                    <img src="image-1.jpg" class="image" style="transform: translateX(0%);">
+                    <img src="image-2.jpg" class="image" style="transform: translateX(100%);">
+                    <img src="image-3.jpg" class="image" style="transform: translateX(200%);">
+                    <img src="image-4.jpg" class="image" style="transform: translateX(300%);">
+                </div>
+                <div class="right-button">
+                    <button class="right">&rarr;</button>
+                </div>
+            </div>
+            <div class="dot-container">
+                <div class="dots">
+                    <div class="button-1">
+                        <button class="btn active-btn slider-1" data-tab=1></button>
+                    </div>
+                    <div class="button-2">
+                        <button class="btn slider-2" data-tab=2></button>
+                    </div>
+                    <div class="button-3">
+                        <button class="btn slider-3" data-tab=3></button>
+                    </div>
+                    <div class="button-4">
+                        <button class="btn slider-4" data-tab=4></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
